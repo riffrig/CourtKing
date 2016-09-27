@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		941552B11D9A029400F3A739 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941552B01D9A029400F3A739 /* AppDelegate.swift */; };
+		941552B31D9A029400F3A739 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941552B21D9A029400F3A739 /* ViewController.swift */; };
+		941552B61D9A029400F3A739 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 941552B41D9A029400F3A739 /* Main.storyboard */; };
+		941552B91D9A029400F3A739 /* CourtKing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 941552B71D9A029400F3A739 /* CourtKing.xcdatamodeld */; };
+		941552BB1D9A029400F3A739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 941552BA1D9A029400F3A739 /* Assets.xcassets */; };
+		941552BE1D9A029400F3A739 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 941552BC1D9A029400F3A739 /* LaunchScreen.storyboard */; };
+		941552C91D9A029400F3A739 /* CourtKingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941552C81D9A029400F3A739 /* CourtKingTests.swift */; };
+		941552D41D9A029400F3A739 /* CourtKingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941552D31D9A029400F3A739 /* CourtKingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		941552C51D9A029400F3A739 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 941552A51D9A029300F3A739 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 941552AC1D9A029400F3A739;
+			remoteInfo = CourtKing;
+		};
+		941552D01D9A029400F3A739 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 941552A51D9A029300F3A739 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 941552AC1D9A029400F3A739;
+			remoteInfo = CourtKing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		941552AD1D9A029400F3A739 /* CourtKing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CourtKing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		941552B01D9A029400F3A739 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		941552B21D9A029400F3A739 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		941552B51D9A029400F3A739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		941552B81D9A029400F3A739 /* CourtKing.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CourtKing.xcdatamodel; sourceTree = "<group>"; };
+		941552BA1D9A029400F3A739 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		941552BD1D9A029400F3A739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		941552BF1D9A029400F3A739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		941552C41D9A029400F3A739 /* CourtKingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CourtKingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		941552C81D9A029400F3A739 /* CourtKingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourtKingTests.swift; sourceTree = "<group>"; };
+		941552CA1D9A029400F3A739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		941552CF1D9A029400F3A739 /* CourtKingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CourtKingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		941552D31D9A029400F3A739 /* CourtKingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourtKingUITests.swift; sourceTree = "<group>"; };
+		941552D51D9A029400F3A739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		941552AA1D9A029400F3A739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		941552C11D9A029400F3A739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		941552CC1D9A029400F3A739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		941552A41D9A029300F3A739 = {
+			isa = PBXGroup;
+			children = (
+				941552AF1D9A029400F3A739 /* CourtKing */,
+				941552C71D9A029400F3A739 /* CourtKingTests */,
+				941552D21D9A029400F3A739 /* CourtKingUITests */,
+				941552AE1D9A029400F3A739 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		941552AE1D9A029400F3A739 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				941552AD1D9A029400F3A739 /* CourtKing.app */,
+				941552C41D9A029400F3A739 /* CourtKingTests.xctest */,
+				941552CF1D9A029400F3A739 /* CourtKingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		941552AF1D9A029400F3A739 /* CourtKing */ = {
+			isa = PBXGroup;
+			children = (
+				941552B01D9A029400F3A739 /* AppDelegate.swift */,
+				941552B21D9A029400F3A739 /* ViewController.swift */,
+				941552B41D9A029400F3A739 /* Main.storyboard */,
+				941552BA1D9A029400F3A739 /* Assets.xcassets */,
+				941552BC1D9A029400F3A739 /* LaunchScreen.storyboard */,
+				941552BF1D9A029400F3A739 /* Info.plist */,
+				941552B71D9A029400F3A739 /* CourtKing.xcdatamodeld */,
+			);
+			path = CourtKing;
+			sourceTree = "<group>";
+		};
+		941552C71D9A029400F3A739 /* CourtKingTests */ = {
+			isa = PBXGroup;
+			children = (
+				941552C81D9A029400F3A739 /* CourtKingTests.swift */,
+				941552CA1D9A029400F3A739 /* Info.plist */,
+			);
+			path = CourtKingTests;
+			sourceTree = "<group>";
+		};
+		941552D21D9A029400F3A739 /* CourtKingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				941552D31D9A029400F3A739 /* CourtKingUITests.swift */,
+				941552D51D9A029400F3A739 /* Info.plist */,
+			);
+			path = CourtKingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		941552AC1D9A029400F3A739 /* CourtKing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 941552D81D9A029400F3A739 /* Build configuration list for PBXNativeTarget "CourtKing" */;
+			buildPhases = (
+				941552A91D9A029400F3A739 /* Sources */,
+				941552AA1D9A029400F3A739 /* Frameworks */,
+				941552AB1D9A029400F3A739 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CourtKing;
+			productName = CourtKing;
+			productReference = 941552AD1D9A029400F3A739 /* CourtKing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		941552C31D9A029400F3A739 /* CourtKingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 941552DB1D9A029400F3A739 /* Build configuration list for PBXNativeTarget "CourtKingTests" */;
+			buildPhases = (
+				941552C01D9A029400F3A739 /* Sources */,
+				941552C11D9A029400F3A739 /* Frameworks */,
+				941552C21D9A029400F3A739 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				941552C61D9A029400F3A739 /* PBXTargetDependency */,
+			);
+			name = CourtKingTests;
+			productName = CourtKingTests;
+			productReference = 941552C41D9A029400F3A739 /* CourtKingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		941552CE1D9A029400F3A739 /* CourtKingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 941552DE1D9A029400F3A739 /* Build configuration list for PBXNativeTarget "CourtKingUITests" */;
+			buildPhases = (
+				941552CB1D9A029400F3A739 /* Sources */,
+				941552CC1D9A029400F3A739 /* Frameworks */,
+				941552CD1D9A029400F3A739 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				941552D11D9A029400F3A739 /* PBXTargetDependency */,
+			);
+			name = CourtKingUITests;
+			productName = CourtKingUITests;
+			productReference = 941552CF1D9A029400F3A739 /* CourtKingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		941552A51D9A029300F3A739 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Ryan Iffrig";
+				TargetAttributes = {
+					941552AC1D9A029400F3A739 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					941552C31D9A029400F3A739 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 941552AC1D9A029400F3A739;
+					};
+					941552CE1D9A029400F3A739 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 941552AC1D9A029400F3A739;
+					};
+				};
+			};
+			buildConfigurationList = 941552A81D9A029300F3A739 /* Build configuration list for PBXProject "CourtKing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 941552A41D9A029300F3A739;
+			productRefGroup = 941552AE1D9A029400F3A739 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				941552AC1D9A029400F3A739 /* CourtKing */,
+				941552C31D9A029400F3A739 /* CourtKingTests */,
+				941552CE1D9A029400F3A739 /* CourtKingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		941552AB1D9A029400F3A739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				941552BE1D9A029400F3A739 /* LaunchScreen.storyboard in Resources */,
+				941552BB1D9A029400F3A739 /* Assets.xcassets in Resources */,
+				941552B61D9A029400F3A739 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		941552C21D9A029400F3A739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		941552CD1D9A029400F3A739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		941552A91D9A029400F3A739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				941552B31D9A029400F3A739 /* ViewController.swift in Sources */,
+				941552B91D9A029400F3A739 /* CourtKing.xcdatamodeld in Sources */,
+				941552B11D9A029400F3A739 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		941552C01D9A029400F3A739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				941552C91D9A029400F3A739 /* CourtKingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		941552CB1D9A029400F3A739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				941552D41D9A029400F3A739 /* CourtKingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		941552C61D9A029400F3A739 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 941552AC1D9A029400F3A739 /* CourtKing */;
+			targetProxy = 941552C51D9A029400F3A739 /* PBXContainerItemProxy */;
+		};
+		941552D11D9A029400F3A739 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 941552AC1D9A029400F3A739 /* CourtKing */;
+			targetProxy = 941552D01D9A029400F3A739 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		941552B41D9A029400F3A739 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				941552B51D9A029400F3A739 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		941552BC1D9A029400F3A739 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				941552BD1D9A029400F3A739 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		941552D61D9A029400F3A739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		941552D71D9A029400F3A739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		941552D91D9A029400F3A739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CourtKing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.missouri.cs.CourtKing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		941552DA1D9A029400F3A739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CourtKing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.missouri.cs.CourtKing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		941552DC1D9A029400F3A739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CourtKingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.missouri.cs.CourtKingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CourtKing.app/CourtKing";
+			};
+			name = Debug;
+		};
+		941552DD1D9A029400F3A739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CourtKingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.missouri.cs.CourtKingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CourtKing.app/CourtKing";
+			};
+			name = Release;
+		};
+		941552DF1D9A029400F3A739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CourtKingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.missouri.cs.CourtKingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CourtKing;
+			};
+			name = Debug;
+		};
+		941552E01D9A029400F3A739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CourtKingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.missouri.cs.CourtKingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CourtKing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		941552A81D9A029300F3A739 /* Build configuration list for PBXProject "CourtKing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				941552D61D9A029400F3A739 /* Debug */,
+				941552D71D9A029400F3A739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		941552D81D9A029400F3A739 /* Build configuration list for PBXNativeTarget "CourtKing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				941552D91D9A029400F3A739 /* Debug */,
+				941552DA1D9A029400F3A739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		941552DB1D9A029400F3A739 /* Build configuration list for PBXNativeTarget "CourtKingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				941552DC1D9A029400F3A739 /* Debug */,
+				941552DD1D9A029400F3A739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		941552DE1D9A029400F3A739 /* Build configuration list for PBXNativeTarget "CourtKingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				941552DF1D9A029400F3A739 /* Debug */,
+				941552E01D9A029400F3A739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		941552B71D9A029400F3A739 /* CourtKing.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				941552B81D9A029400F3A739 /* CourtKing.xcdatamodel */,
+			);
+			currentVersion = 941552B81D9A029400F3A739 /* CourtKing.xcdatamodel */;
+			path = CourtKing.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 941552A51D9A029300F3A739 /* Project object */;
+}
