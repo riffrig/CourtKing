@@ -15,6 +15,8 @@
 		941552BE1D9A029400F3A739 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 941552BC1D9A029400F3A739 /* LaunchScreen.storyboard */; };
 		941552C91D9A029400F3A739 /* CourtKingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941552C81D9A029400F3A739 /* CourtKingTests.swift */; };
 		941552D41D9A029400F3A739 /* CourtKingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941552D31D9A029400F3A739 /* CourtKingUITests.swift */; };
+		941552E21D9A037B00F3A739 /* CourtKing.png in Resources */ = {isa = PBXBuildFile; fileRef = 941552E11D9A037B00F3A739 /* CourtKing.png */; };
+		941552E41D9A0C8000F3A739 /* CourtSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941552E31D9A0C8000F3A739 /* CourtSelectorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		941552CF1D9A029400F3A739 /* CourtKingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CourtKingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		941552D31D9A029400F3A739 /* CourtKingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourtKingUITests.swift; sourceTree = "<group>"; };
 		941552D51D9A029400F3A739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		941552E11D9A037B00F3A739 /* CourtKing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CourtKing.png; sourceTree = "<group>"; };
+		941552E31D9A0C8000F3A739 /* CourtSelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourtSelectorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +106,12 @@
 				941552B01D9A029400F3A739 /* AppDelegate.swift */,
 				941552B21D9A029400F3A739 /* ViewController.swift */,
 				941552B41D9A029400F3A739 /* Main.storyboard */,
+				941552E11D9A037B00F3A739 /* CourtKing.png */,
 				941552BA1D9A029400F3A739 /* Assets.xcassets */,
 				941552BC1D9A029400F3A739 /* LaunchScreen.storyboard */,
 				941552BF1D9A029400F3A739 /* Info.plist */,
 				941552B71D9A029400F3A739 /* CourtKing.xcdatamodeld */,
+				941552E31D9A0C8000F3A739 /* CourtSelectorViewController.swift */,
 			);
 			path = CourtKing;
 			sourceTree = "<group>";
@@ -237,6 +243,7 @@
 			files = (
 				941552BE1D9A029400F3A739 /* LaunchScreen.storyboard in Resources */,
 				941552BB1D9A029400F3A739 /* Assets.xcassets in Resources */,
+				941552E21D9A037B00F3A739 /* CourtKing.png in Resources */,
 				941552B61D9A029400F3A739 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +272,7 @@
 				941552B31D9A029400F3A739 /* ViewController.swift in Sources */,
 				941552B91D9A029400F3A739 /* CourtKing.xcdatamodeld in Sources */,
 				941552B11D9A029400F3A739 /* AppDelegate.swift in Sources */,
+				941552E41D9A0C8000F3A739 /* CourtSelectorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
