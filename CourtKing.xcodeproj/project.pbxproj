@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		678358381DA56EC900F6756E /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 678358371DA56EC900F6756E /* logo.jpg */; };
 		941552B11D9A029400F3A739 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941552B01D9A029400F3A739 /* AppDelegate.swift */; };
 		941552B31D9A029400F3A739 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941552B21D9A029400F3A739 /* ViewController.swift */; };
 		941552B61D9A029400F3A739 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 941552B41D9A029400F3A739 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		678358371DA56EC900F6756E /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo.jpg; path = ../../../.Trash/logo.jpg; sourceTree = "<group>"; };
 		941552AD1D9A029400F3A739 /* CourtKing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CourtKing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		941552B01D9A029400F3A739 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		941552B21D9A029400F3A739 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				941552B21D9A029400F3A739 /* ViewController.swift */,
 				941552B41D9A029400F3A739 /* Main.storyboard */,
 				941552E11D9A037B00F3A739 /* CourtKing.png */,
+				678358371DA56EC900F6756E /* logo.jpg */,
 				941552BA1D9A029400F3A739 /* Assets.xcassets */,
 				941552BC1D9A029400F3A739 /* LaunchScreen.storyboard */,
 				941552BF1D9A029400F3A739 /* Info.plist */,
@@ -242,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				941552BE1D9A029400F3A739 /* LaunchScreen.storyboard in Resources */,
+				678358381DA56EC900F6756E /* logo.jpg in Resources */,
 				941552BB1D9A029400F3A739 /* Assets.xcassets in Resources */,
 				941552E21D9A037B00F3A739 /* CourtKing.png in Resources */,
 				941552B61D9A029400F3A739 /* Main.storyboard in Resources */,
@@ -517,6 +521,7 @@
 				941552DA1D9A029400F3A739 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		941552DB1D9A029400F3A739 /* Build configuration list for PBXNativeTarget "CourtKingTests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +530,7 @@
 				941552DD1D9A029400F3A739 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		941552DE1D9A029400F3A739 /* Build configuration list for PBXNativeTarget "CourtKingUITests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +539,7 @@
 				941552E01D9A029400F3A739 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
